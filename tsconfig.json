@@ -1,0 +1,14 @@
+{
+
+  "compilerOptions":{
+
+    "outDir": "./dist/js",
+    "target": "ES6",
+    "noEmitOnError": true, //so gera o diretorio se o codigo TS esta OK.
+    "noImplicitAny": true //
+  },
+
+  "include": [
+    "./app/**/*"
+  ]
+}
